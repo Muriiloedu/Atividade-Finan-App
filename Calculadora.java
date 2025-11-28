@@ -1,0 +1,33 @@
+package Calculadora;
+
+public class Calculadora{
+
+    public int r = 0;
+
+    public int calc(int a, int b, String op) {
+
+        //Calculadora
+        if (op.equals("+")) {
+            r = a + b;
+        } else if (cp.equals("-")) {
+            r = a - b;
+        }  else if (cp.equals("*")) {
+            r = a * b;
+        } else if (cp.equals("/")) {
+            r = a / b;
+
+            if (b != 0) {
+                r = a / b;
+            } else {
+                System.out.println("Erro: divisao por zero, operação irregular");
+                r = 0;
+            }
+        } else {
+            System.out.println(" Operacao invalida");
+                r = 0; 
+        }
+
+        System.out.println("Resultado = " + r);
+        return r;
+    }
+}
