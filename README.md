@@ -4,3 +4,6 @@ Essa é uma atividade acadêmica, nela tem o intuito de aprender a fortificar co
 O primeiro passo foi de replicar o codigo e rodar, com o intuito de identificar possiveis erros. a imagem a seguir vai mostrar isso;
 
 <img width="864" height="152" alt="image" src="teste primario.png" />
+
+Segundo Passo é a refatoração, também feito;
+<img width="864" height="152" alt="image" src="teste refatorado.png" />
